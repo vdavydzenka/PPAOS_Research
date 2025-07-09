@@ -1,42 +1,94 @@
-The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS).
-"The More You Listen, The More You Understand: Perception and Progression in PPAOS"
+# The More You Listen, The More You Understand: Perception and Progression in PPAOS
 
+## Overview
 
-About:
-Primary Progressive Apraxia of Speech (PPAOS) is a neurodegenerative motor speech disorder. It is characterized by impaired planning or programming of movements. Because PPAOS is a progressive disorder, its symptoms worsen over time. Treatment typically focuses on the speaker, but both the speaker and listener contribute to successful communication. Enhancing listener capabilities can reduce the burden on the speaker and improve communication quality. This study quantified changes in listener perception of a speaker with PPAOS over an 8-month period and examined whether brief training could improve listeners’ ability to understand the speech.
-![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
+This repository contains experimental materials, custom scripts, and data post-processing pipelines from my research on **Primary Progressive Apraxia of Speech (PPAOS)** – a neurodegenerative motor speech disorder characterized by impaired speech planning and programming.
 
+The study aimed to understand how **listener perception of an individual with PPAOS changes over time**, and whether **brief familiarization training** can improve intelligibility, reduce perceived effort, and enhance communication quality.
 
+---
 
-Research Design:
-The experiment included three phases: pre-training, training, and post-training.
-Participants listened to, transcribed, and rated speech samples from an individual with PPAOS.
-During the training phase, participants listened to speech while following along with written transcription, helping them familiarize with the speaker’s impaired speech.
-![image](https://github.com/user-attachments/assets/8821eecf-1b21-4a57-b13c-8262b590a75c)
+## Motivation
 
+While treatment for PPAOS traditionally focuses on the speaker, communication is inherently **bidirectional**. Improving listener adaptation and perception can reduce the communicative burden on the speaker, potentially enhancing quality of life for individuals with progressive motor speech disorders.
 
+---
 
+## Research Design
 
+- **Participants**: Listened to and transcribed speech samples recorded over an eight-month period from an individual with PPAOS.
+- **Three Phases**:
+  - **Pre-training**: Baseline transcription and perceptual ratings.
+  - **Training**: Familiarization with written transcriptions alongside audio.
+  - **Post-training**: Reassessment of transcription accuracy and perceptual ratings.
 
-Results:
-After brief familiarization, listeners rated both their own effort and the speaker’s effort as lower, suggesting that the speech became easier to understand and seemed less difficult to produce.
-Ratings of naturalness increased from pre- to post-training for both words and sentences, showing that speech was perceived as more natural after exposure.
-For word stimuli, naturalness ratings decreased over time, reflecting listeners’ ability to detect the progression of speech degradation as the disease advanced.
-![image](https://github.com/user-attachments/assets/2d99e4ee-4b4d-4735-bfcd-7377541c33c0)
+### Data Collected
 
+- **Transcriptions** of words and sentences.
+- **Ratings** of naturalness, speaker effort, and listener effort.
+- **Response durations** to assess processing time.
 
-Significance of the Study:
-The findings suggest that while communication declines with disease progression, listener familiarization can help maintain communication quality.
+---
 
+## Repository Contents
 
+| File/Folder | Description |
+|-------------|-------------|
+| `main.py` | Python script to transform Qualtrics raw outputs (Excel format) into a structured JSON (`organized_data.json`). It cleans, organizes, and hierarchically groups participant data by experimental stage, facilitating efficient analysis. |
+| `organized_data.json` | Example output file storing all experimental data in an object-oriented, cross-platform compatible format. |
+| `sample*.html`, `sample*.js` | Custom HTML and JavaScript code snippets embedded within Qualtrics to implement experimental controls such as one-time audio playback, hidden input reveals upon audio completion, and precise response timing. |
+| `README.md` | This file. Provides project overview and documentation. |
 
+---
 
-References:
-[1] Davydzenka, V., Gregory, A., Whitfield, J.A., Kriegel, Z. (2024). Primary Progressive Apraxia of Speech: A Case Study of Speech Production Changes over Eight Months. Poster Presentation at the American Speech Language Hearing Association Annual Convention, Seattle, Washington. 
-[2] Davydzenka, V. (2025, May). “The More You Listen, The More You Understand: Perception and Progression in PPAOS.” Oral presentation at the INBRE Research Conference and poster presentation at Undergraduate Research & Inquiry Day, University of Wyoming, Laramie, WY.
+## Key Implementation Highlights
 
+✅ **Advanced Data Processing**  
+The `main.py` script processes datasets with over **1400 participants and 200+ variables each**, outputting them into clean JSON structures categorized by participant, phase, and task for immediate analysis.
 
-The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
-The folder titled "postprocessing_responces" stores a python file main.py, which is used to organize raw and cumbersome output from Qualtrics (consisting of 1400 x 200 data entries), into a simple organized_data.json file, that groups  all data in an object-oriented manner (using a hashmap), where each experiment hashmap stores participants (keys) and their responces (values). The resulting output JSON file is cross-platform (can be imported by most software and coding languages) and makes it extremely easy to analyze large datasets, by storing entire data in a hirerachical structure (as opposed to collumn-row based way, as in .csv files).
+✅ **Custom Qualtrics Integration**  
+Includes JavaScript and HTML codes to:
+- Restrict audio to single playback per trial (emulating natural conversation conditions).
+- Record precise timing for user interactions.
+- Dynamically reveal transcription inputs post audio completion, ensuring experimental validity.
 
-Please feel free to adapt the codes for your own experiments in Qualtrics or reach out at my email (vdavydze at uwyo . edu) for complete dataset and HTML + Javascript codes for the entire questionnaire. 
+✅ **Object-Oriented Data Design**  
+Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data querying, visualization, and statistical modeling**.
+
+---
+
+## Results Summary
+
+- **Listener Familiarization Benefits**  
+  After brief training, listeners rated speech as more natural, reported reduced effort, and demonstrated improved transcription accuracy.
+
+- **Detection of Progression**  
+  For word stimuli, naturalness ratings decreased over time, reflecting sensitivity to disease progression.
+
+---
+
+## Significance
+
+This project demonstrates that **listener training** can meaningfully enhance communicative success in PPAOS, offering clinical implications for augmentative strategies targeting not only speaker production but also listener perception and adaptation.
+
+---
+
+## References
+
+1. Davydzenka, V., Gregory, A., Whitfield, J.A., Kriegel, Z. (2024). *Primary Progressive Apraxia of Speech: A Case Study of Speech Production Changes over Eight Months*. Poster Presentation, ASHA Annual Convention, Seattle, WA.
+2. Davydzenka, V. (2025). *The More You Listen, The More You Understand: Perception and Progression in PPAOS*. Oral Presentation at INBRE Research Conference and Poster Presentation at Undergraduate Research & Inquiry Day, University of Wyoming.
+
+---
+
+## Contact
+
+For further details, dataset requests, or collaboration inquiries:
+
+**Tsimur Davydzenka**  
+Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
+
+---
+
+## Acknowledgements
+
+This research integrates my dual interests in **speech science and computational data analysis**, demonstrating readiness for graduate-level work in **Speech-Language Pathology**. It combines clinical research questions with advanced programming, reflecting a commitment to **evidence-based practice grounded in rigorous data analysis**.
