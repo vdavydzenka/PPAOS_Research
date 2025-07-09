@@ -2,8 +2,17 @@ The following code was developed as a part of a project aimed at studying Progre
 "The More You Listen, The More You Understand: Perception and Progression in PPAOS"
 
 
+About:
 Primary Progressive Apraxia of Speech (PPAOS) is a neurodegenerative motor speech disorder. It is characterized by impaired planning or programming of movements. Because PPAOS is a progressive disorder, its symptoms worsen over time. Treatment typically focuses on the speaker, but both the speaker and listener contribute to successful communication. Enhancing listener capabilities can reduce the burden on the speaker and improve communication quality. This study quantified changes in listener perception of a speaker with PPAOS over an 8-month period and examined whether brief training could improve listeners’ ability to understand the speech.
 ![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
+
+
+
+Research Desing:
+The experiment included three phases: pre-training, training, and post-training.
+Participants listened to, transcribed, and rated speech samples from an individual with PPAOS.
+During the training phase, participants listened to speech while following along with written transcription, helping them familiarize with the speaker’s impaired speech.
+![image](https://github.com/user-attachments/assets/8821eecf-1b21-4a57-b13c-8262b590a75c)
 
 
 
