@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page 2 - Audio Once</title>
+  <style>
+    #audioWrapper_page1_1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    #playerContainer_page1_1 {
+      border: 2px solid #000;
+      padding: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+    #playPauseBtn_page1_1 {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      background-color: #492f24;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+    #timeDisplay_page1_1 {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="audioWrapper_page1_1">
+    <div id="playerContainer_page1_1">
+      <button id="playPauseBtn_page1_1">Play</button>
+      
+      <span id="timeDisplay_page1_1">0:00 left</span>
+
+      <audio id="myAudio_page1_1" preload="auto">
+        <source src="...">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      // Unique key for Page 1_1
+      var STORAGE_KEY = "audioPlayed_page1_1";
+
+      var wrapper = document.getElementById("audioWrapper_page1_1");
+      var audio   = document.getElementById("myAudio_page1_1");
+      var btn     = document.getElementById("playPauseBtn_page1_1");
+      var disp    = document.getElementById("timeDisplay_page1_1");
+
+      // If we've already played on this page, hide the audio player
+      if (sessionStorage.getItem(STORAGE_KEY) === "true") {
+        wrapper.style.display = "none";
+        return;
+      }
+
+      // Formats seconds into M:SS
+      function formatTime(sec) {
+        if (isNaN(sec) || sec < 0) return "0:00";
+        var m = Math.floor(sec / 60);
+        var s = Math.floor(sec % 60);
+        if (s < 10) s = "0" + s;
+        return m + ":" + s;
+      }
+
+      // On first click, play the audio and hide the button
+      btn.addEventListener("click", function() {
+        audio.play();
+        btn.style.display = "none"; // remove the play/stop button
+      });
+
+      // Update display to show how many seconds remain
+      audio.addEventListener("timeupdate", function() {
+        var timeLeft = audio.duration - audio.currentTime;
+        disp.textContent = formatTime(timeLeft) + " left";
+      });
+
+      // Once the audio ends, mark it as played and hide the wrapper
+      audio.addEventListener("ended", function() {
+        sessionStorage.setItem(STORAGE_KEY, "true");
+        wrapper.style.display = "none";
+      });
+    })();
+  </script>
+</body>
+</html>
