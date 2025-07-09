@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains experimental materials, custom scripts, and data post-processing pipelines from my research on **Primary Progressive Apraxia of Speech (PPAOS)** – a neurodegenerative motor speech disorder characterized by impaired speech planning and programming.
+This repository contains experimental materials, custom scripts, and data post-processing pipelines from my research on **Primary Progressive Apraxia of Speech (PPAOS)** – a neurodegenerative motor speech disorder characterized by impaired speech planning and programming. The integrates my dual interests in **speech science and computational data analysis** and combines clinical research questions with python/javascript programming.
 
 The study aimed to understand how **listener perception of an individual with PPAOS changes over time**, and whether **brief familiarization training** can improve intelligibility, reduce perceived effort, and enhance communication quality.
 
@@ -95,6 +95,6 @@ Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
 
 ## Acknowledgements
 
-This research integrates my dual interests in **speech science and computational data analysis**. It combines clinical research questions with python/javascript programming.
+
 I would like to thank **Dr. Kriegel** for her guidance throughout the project and for her help with data analysis.
 
