@@ -15,7 +15,7 @@ While treatment for PPAOS traditionally focuses on the speaker, communication is
 ---
 
 ## Research Design
-
+![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
 - **Participants**: Listened to and transcribed speech samples recorded over an eight-month period from an individual with PPAOS.
 - **Three Phases**:
   - **Pre-training**: Baseline transcription and perceptual ratings.
