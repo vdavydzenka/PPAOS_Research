@@ -45,22 +45,22 @@ While treatment for PPAOS traditionally focuses on the speaker, communication is
 
 ## Key Implementation Highlights
 
-✅ **Advanced Data Processing**  
+**Advanced Data Processing**  
 The `main.py` script processes datasets with over **1400 participants and 200+ variables each**, outputting them into clean JSON structures categorized by participant, phase, and task for immediate analysis.
 
-✅ **Custom Qualtrics Integration**  
+**Custom Qualtrics Integration**  
 Includes JavaScript and HTML codes to:
 - Restrict audio to single playback per trial (emulating natural conversation conditions).
 - Record precise timing for user interactions.
 - Dynamically reveal transcription inputs post audio completion, ensuring experimental validity.
 
-✅ **Object-Oriented Data Design**  
+**Object-Oriented Data Design**  
 Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data querying, visualization, and statistical modeling**.
 
 ---
 
 ## Results Summary
-
+![image](https://github.com/user-attachments/assets/2d99e4ee-4b4d-4735-bfcd-7377541c33c0)
 - **Listener Familiarization Benefits**  
   After brief training, listeners rated speech as more natural, reported reduced effort, and demonstrated improved transcription accuracy.
 
