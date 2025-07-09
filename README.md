@@ -13,7 +13,21 @@ The experiment included three phases: pre-training, training, and post-training.
 Participants listened to, transcribed, and rated speech samples from an individual with PPAOS.
 During the training phase, participants listened to speech while following along with written transcription, helping them familiarize with the speaker’s impaired speech.
 ![image](https://github.com/user-attachments/assets/8821eecf-1b21-4a57-b13c-8262b590a75c)
+![image](https://github.com/user-attachments/assets/51d2dffd-79b9-4f0c-a4b5-bb5a82721b08)![image](https://github.com/user-attachments/assets/7704b6a5-e3d6-4627-b34c-ee0343daa86d)
+![image](https://github.com/user-attachments/assets/223029e6-3311-4460-b774-66b0926fe264)![image](https://github.com/user-attachments/assets/d16ef467-7c7d-410f-bab4-7a67299bf9c5)
 
+
+
+
+
+Results:
+After brief familiarization, listeners rated both their own effort and the speaker’s effort as lower, suggesting that the speech became easier to understand and seemed less difficult to produce.
+Ratings of naturalness increased from pre- to post-training for both words and sentences, showing that speech was perceived as more natural after exposure.
+For word stimuli, naturalness ratings decreased over time, reflecting listeners’ ability to detect the progression of speech degradation as the disease advanced.
+
+
+Significance of the Study:
+The findings suggest that while communication declines with disease progression, listener familiarization can help maintain communication quality.
 
 
 
