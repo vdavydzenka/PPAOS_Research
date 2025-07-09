@@ -1,7 +1,16 @@
 # ppaos_research
 The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS).
-Link to research and all the relevant info.
-![image](https://github.com/user-attachments/assets/b797b49a-a3d6-493a-8452-60a80a2321fd)
+"The More You Listen, The More You Understand: Perception and Progression in PPAOS"
+
+
+Primary Progressive Apraxia of Speech (PPAOS) is a neurodegenerative motor speech disorder. It is characterized by impaired planning or programming of movements. Because PPAOS is a progressive disorder, its symptoms worsen over time.
+![image](https://github.com/user-attachments/assets/08006c1f-605c-4190-8bdf-a6c624d2ac16)
+
+
+
+Link to research and all the relevant inf .
+
+
 
 
 The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
