@@ -1,5 +1,9 @@
 # ppaos_research
-The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS). The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
+The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS).
+Link to research and all the relevant info.
+
+
+The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
 The folder titled "postprocessing_responces" stores a python file main.py, which is used to organize raw and cumbersome output from Qualtrics (consisting of 1400 x 200 data entries), into a simple organized_data.json file, that groups  all data in an object-oriented manner (using a hashmap), where each experiment hashmap stores participants (keys) and their responces (values). The resulting output JSON file is cross-platform (can be imported by most software and coding languages) and makes it extremely easy to analyze large datasets, by storing entire data in a hirerachical structure (as opposed to collumn-row based way, as in .csv files).
 
 Please feel free to adapt the codes for your own experiments in Qualtrics or reach out at my email (vdavydze at uwyo . edu) for complete dataset and HTML + Javascript codes for the entire questionnaire. 
