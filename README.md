@@ -67,7 +67,7 @@ Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data q
 - **Detection of Progression**  
   For word stimuli, naturalness ratings decreased over time, reflecting sensitivity to disease progression.
 
-![image](https://github.com/user-attachments/assets/2d99e4ee-4b4d-4735-bfcd-7377541c33c0)
+ **[ FURTHER RESULTS WILL BE PUBLISHED AFTER UPCOMING ASHA CONFERENCE] **
 
 ---
 
