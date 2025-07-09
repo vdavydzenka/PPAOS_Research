@@ -67,7 +67,7 @@ Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data q
 - **Detection of Progression**  
   For word stimuli, naturalness ratings decreased over time, reflecting sensitivity to disease progression.
 
- **[ FURTHER RESULTS WILL BE PUBLISHED AFTER UPCOMING ASHA CONFERENCE] **
+ **[ FURTHER RESULTS WILL BE PUBLISHED AFTER UPCOMING ASHA CONFERENCE]**
 
 ---
 
@@ -79,8 +79,7 @@ This project demonstrates that **listener training** can meaningfully enhance co
 
 ## References
 
-1. **Davydzenka, V.**, Gregory, A., Whitfield, J.A., Kriegel, Z. (2024). *Primary Progressive Apraxia of Speech: A Case Study of Speech Production Changes over Eight Months*. Poster Presentation, ASHA Annual Convention, Seattle, WA.
-2. **Davydzenka, V.** (2025). *The More You Listen, The More You Understand: Perception and Progression in PPAOS*. Oral Presentation at INBRE Research Conference and Poster Presentation at Undergraduate Research & Inquiry Day, University of Wyoming.
+1. **Davydzenka, V.** (2025). *The More You Listen, The More You Understand: Perception and Progression in PPAOS*. Oral Presentation at INBRE Research Conference and Poster Presentation at Undergraduate Research & Inquiry Day, University of Wyoming.
 
 ---
 
