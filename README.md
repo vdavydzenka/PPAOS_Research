@@ -1,6 +1,7 @@
 # ppaos_research
 The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS).
 Link to research and all the relevant info.
+![image](https://github.com/user-attachments/assets/b797b49a-a3d6-493a-8452-60a80a2321fd)
 
 
 The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
