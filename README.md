@@ -95,4 +95,6 @@ Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
 
 ## Acknowledgements
 
-This research integrates my dual interests in **speech science and computational data analysis**, demonstrating readiness for graduate-level work in **Speech-Language Pathology**. It combines clinical research questions with advanced programming, reflecting a commitment to **evidence-based practice grounded in rigorous data analysis**.
+This research integrates my dual interests in **speech science and computational data analysis**. It combines clinical research questions with python/javascript programming.
+I would like to thank **Dr. Kriegel** for her guidance throughout the project and for her help with data analysis.
+
