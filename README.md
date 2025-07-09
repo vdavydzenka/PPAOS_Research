@@ -84,7 +84,7 @@ This project demonstrates that **listener training** can meaningfully enhance co
 
 For further details, dataset requests, or collaboration inquiries:
 
-**Tsimur Davydzenka**  
+**Viyaleta Davydzenka**  
 Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
 
 ---
