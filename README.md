@@ -96,5 +96,5 @@ Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
 ## Acknowledgements
 
 
-I would like to thank **Dr. Kriegel** for her guidance throughout the project and for her help with data analysis.
+I would like to thank **Dr. Kriegel** for all her help and guidance throughout the project.
 
