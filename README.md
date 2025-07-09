@@ -11,11 +11,11 @@ The study aimed to understand how **listener perception of an individual with PP
 ## Motivation
 
 While treatment for PPAOS traditionally focuses on the speaker, communication is inherently **bidirectional**. Improving listener adaptation and perception can reduce the communicative burden on the speaker, potentially enhancing quality of life for individuals with progressive motor speech disorders.
-
+![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
 ---
 
 ## Research Design
-![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
+![image](https://github.com/user-attachments/assets/8821eecf-1b21-4a57-b13c-8262b590a75c)
 - **Participants**: Listened to and transcribed speech samples recorded over an eight-month period from an individual with PPAOS.
 - **Three Phases**:
   - **Pre-training**: Baseline transcription and perceptual ratings.
