@@ -31,9 +31,9 @@ The findings suggest that while communication declines with disease progression,
 
 
 
-Link to research and all the relevant inf .
-
-
+References:
+[1] Davydzenka, V., Gregory, A., Whitfield, J.A., Kriegel, Z. (2024). Primary Progressive Apraxia of Speech: A Case Study of Speech Production Changes over Eight Months. Poster Presentation at the American Speech Language Hearing Association Annual Convention, Seattle, Washington. 
+[2] Davydzenka, V. (2025, May). “The More You Listen, The More You Understand: Perception and Progression in PPAOS.” Oral presentation at the INBRE Research Conference and poster presentation at Undergraduate Research & Inquiry Day, University of Wyoming, Laramie, WY.
 
 
 The "creating_questionnaire" folder stores some of the custom sample questions that were created for Qualtrics.
