@@ -10,13 +10,14 @@ The study aimed to understand how **listener perception of an individual with PP
 
 ## Motivation
 
+
 While treatment for PPAOS traditionally focuses on the speaker, communication is inherently **bidirectional**. Improving listener adaptation and perception can reduce the communicative burden on the speaker, potentially enhancing quality of life for individuals with progressive motor speech disorders.
 ![image](https://github.com/user-attachments/assets/8411aae9-24fa-4e5d-b711-5d6b4e8715ed)
 ---
 
 ## Research Design
 
-- **Participants**: Listened to and transcribed speech samples recorded over an eight-month period from an individual with PPAOS.
+- **Participants**: Listened to and transcribed speech samples recorded from an individual with PPAOS.
 - **Three Phases**:
   - **Pre-training**: Baseline transcription and perceptual ratings.
   - **Training**: Familiarization with written transcriptions alongside audio.
@@ -27,7 +28,7 @@ While treatment for PPAOS traditionally focuses on the speaker, communication is
 ### Data Collected
 
 - **Transcriptions** of words and sentences.
-- **Ratings** of naturalness, speaker effort, and listener effort.
+- **Ratings** - ***
 - **Response durations** to assess processing time.
 
 ---
@@ -57,23 +58,6 @@ Includes JavaScript and HTML codes to:
 **Object-Oriented Data Design**  
 Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data querying, visualization, and statistical modeling**.
 
----
-
-## Results Summary
-
-- **Listener Familiarization Benefits**  
-  After brief training, listeners rated speech as more natural, reported reduced effort, and demonstrated improved transcription accuracy.
-
-- **Detection of Progression**  
-  For word stimuli, naturalness ratings decreased over time, reflecting sensitivity to disease progression.
-
- **[ FURTHER RESULTS WILL BE PUBLISHED AFTER UPCOMING ASHA CONFERENCE]**
-
----
-
-## Significance
-
-This project demonstrates that **listener training** can meaningfully enhance communicative success in PPAOS, offering clinical implications for augmentative strategies targeting not only speaker production but also listener perception and adaptation.
 
 ---
 
@@ -97,3 +81,4 @@ Email: [vdavydze@uwyo.edu](mailto:vdavydze@uwyo.edu)
 
 I would like to thank **Dr. Kriegel**  at **University of Wyoming** for all her help and guidance throughout the project.
 
+*** - More information will be published after research is presented at an upcomming ASHA Conference in Washington DC, 2026.
