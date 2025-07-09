@@ -1,4 +1,3 @@
-# ppaos_research
 The following code was developed as a part of a project aimed at studying Progressive Primary Apraxia of Speech (PPAOS).
 "The More You Listen, The More You Understand: Perception and Progression in PPAOS"
 
