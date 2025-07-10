@@ -64,7 +64,7 @@ Transforms flat .csv/.xlsx outputs into hierarchical JSON for **efficient data q
 
 ## References
 
-1. **Davydzenka, V.** (2025). *The More You Listen, The More You Understand: Perception and Progression in PPAOS*. Oral Presentation at INBRE Research Conference and Poster Presentation at Undergraduate Research & Inquiry Day, University of Wyoming.
+1. **Davydzenka, V.**, Kriegel, Z (2025). *The More You Listen, The More You Understand: Perception and Progression in PPAOS*. Oral Presentation at INBRE Research Conference and Poster Presentation at Undergraduate Research & Inquiry Day, University of Wyoming.
 
 ---
 
