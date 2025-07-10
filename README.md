@@ -47,7 +47,7 @@ While treatment for PPAOS traditionally focuses on the speaker, communication is
 
 ## Key Implementation Highlights
 
-**Advanced Data Processing**  
+**Data Processing**  
 The `main.py` script processes datasets with over **1400 participants and 200+ variables each**, outputting them into clean JSON structures categorized by participant, phase, and task for immediate analysis.
 
 **Custom Qualtrics Integration**  
